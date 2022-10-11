@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: 'Dosis', sans-serif;
+	background-color: #3bc7ff21;
+}	
+
+.outer{
+	width: 100%;
+	height: 100vh;
+    border: 3px solid red;
+    background-image:url(image/pic1.avif);
+    opacity: 0.7;
+}
+
+.header{
+	width: 100%;
+	height: 600px;
+}
+
+.logo{
+	width: 50%;
+	height: 100px;
+	border: 3px solid black;
+	float: left;
+	color: white;
+}
+
+.menu{
+	width: 50%;
+	height: 100px;
+	float: left;
+	font-size: 25px;
+	border: 3px solid black;
+	color: white;
+}
+
+.banner{
+	width:30%;
+	height: 100px;
+	padding: 250px;
+	color: white;
+}
+
+
+.about{
+	width: 100%;
+	height: 400px;
+    border: 3px solid green;
+    background-color: #eaeaea;
+}
+
+.container{
+	width: 100%;
+	height: 300px;
+	border: 3x solid black;
+}
+
+.left_container{
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
+.img{
+	border: 2px solid black;
+}
+
+.right_container{
+	width: 50%;
+	height: 200px;
+	float: left;
+	font-size: 25px;
+	padding-top: 70px;
+	padiing-left: -100px;
+}
+
+.work{
+	width: 100%;
+	height: 700px;
+	border: 3px solid yellow;
+	padding-left:80px;
+	padding-top: 50px;
+}
+
+.contact{
+	width: 100%;
+	height: 500px;
+	border: 3px solid pink;
+	padding-left: 80px;
+	padding-top: 20px;
+}
